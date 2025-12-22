@@ -20,6 +20,41 @@
 **This project aims to develop a hybrid end-to-end Transformer model capable of accurately recognizing text from non-standard Spanish printed sources from the 16th and 17th centuries. It was developed as part of the Google Summer of Code (GSoC) initiative.**
 
 ---
+## Setup & Run Instructions
+
+### Prerequisites
+- Python 3.9 or higher
+- Git
+- (Optional but recommended) GPU for training
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/humanai-foundation/RenAIssance.git
+cd RenAIssance/RenAIssance_Transformer_OCR_Arsh_Khan
+```
+
+### 2. Create a virtual environment
+```bash
+python -m venv venv
+activate the environment :
+Windows
+venv\Scripts\activate
+
+Linux/macOS
+source venv/bin/activate
+```
+
+
+### 3.Install Dependencies
+pip install -r requirements.txt
+
+### 4. Run the notebook
+jupyter notebook ViT_Transformer_Model.ipynb
+
+
+---
+
+---
 # <ins> Printing Irregularities
 
 Historical texts from the 16th and 17th centuries present a variety of printing irregularities that significantly challenge Optical Character Recognition (OCR) systems. These irregularities arise from the printing limitations and linguistic conventions of the period. Our model specifically addresses these challenges to improve text recognition accuracy. Below are some common irregularities and how they are managed:
